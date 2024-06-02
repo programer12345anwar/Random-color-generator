@@ -12,6 +12,7 @@ function generateColor() {
     colorContainerE1s.forEach((colorContainerE1) => {
         const newColorCode = randomColor();
         colorContainerE1.style.backgroundColor = newColorCode;
+        colorContainerE1.innerHTML=newColorCode;
     });
 }
 
